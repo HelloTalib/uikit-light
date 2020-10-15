@@ -1,0 +1,38 @@
+/*========================================
+ Template Name: Startup-Pack
+ Template URI:
+ Template Type: Personal Portfolio
+ Author: TALIB
+ Author URI: https://bdwebninja.com
+ Version: 1.0.0
+ Description: Solo website for my client
+ Brand Color:   #fe6347, #48455a
+ Icon:          Flat Icon, Font Awesome
+ Text font:     Poppins
+ Tags:
+/* ========================
+**/
+
+// =================================
+// 1. import variables & mixins
+// =================================
+@import "abstracts/abstracts";
+
+// =================================
+// 2. Import default styles.
+// =================================
+@import "base/base.scss";
+
+// =================================
+// 3. Import component styles.
+// =================================
+@import "component/component.scss";
+
+// =================================
+// 4 Import theme layout.
+// =================================
+@import "layout/layout.scss";
+// =================================
+// 5. Import theme pages.
+// =================================
+@import "pages/pages.scss";
